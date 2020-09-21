@@ -61,3 +61,53 @@ TEST(task1, test10)
 ASSERT_NEAR(7.937254,calc(63.0), 0.000001);
 
 }
+
+TEST(task2, test11)
+{
+ASSERT_NEAR(1.414214,calc(2.0),0.000001);
+}
+
+TEST(task2, test12)
+{
+ASSERT_NEAR(1.414214,calc(2.0),0.000001);
+}
+
+TEST(task2, test13)
+{
+ASSERT_NEAR(3.0,average(2.0,4.0),0.000001);
+}
+
+TEST(task2, test14)
+{
+ASSERT_NEAR(1.5,average(0.0,3.0),0.000001);
+}
+
+TEST(task2, test15)
+{
+ASSERT_NEAR(1.0,good(2.0,4.0),0.000001);
+}
+
+TEST(task2, test16)
+{
+ASSERT_NEAR(0.0,good(1.0,4.0),0.000001);
+}
+
+TEST(task2, test17)
+{
+ASSERT_NEAR(3.0,improve(1.0,5.0),0.000001);
+}
+
+TEST(task2, test18)
+{
+ASSERT_NEAR(2.5,improve(1.0,4.0),0.000001);
+}
+
+TEST(task2, test19)
+{
+ASSERT_NEAR(2.236068,iter(1.0,5.0),0.000001);
+}
+
+TEST(task2, test20)
+{
+ASSERT_NEAR(4.472136,iter(10.0,20.0),0.000001);
+}
